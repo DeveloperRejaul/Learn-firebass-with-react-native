@@ -12,10 +12,9 @@ export default function UpdateData() {
   const [inputValue, setinputValue] = useState('');
 
   useEffect(() => {
+    const getData = async () => {};
     getData();
   }, []);
-
-  const getData = async () => {};
 
   return (
     <View style={styles.container}>
