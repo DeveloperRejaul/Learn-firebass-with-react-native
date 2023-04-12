@@ -1,7 +1,7 @@
 import {Text, View} from 'react-native';
 import React, {useEffect, useState} from 'react';
-import firestore from '@react-native-firebase/firestore'; // for firestore
-import database from '@react-native-firebase/database'; // for realtime databass
+import firestore from '@react-native-firebase/firestore'; //TODO: for firestore
+import database from '@react-native-firebase/database'; //TODO: for realtime databass
 
 export default function GetData({navigation}) {
   const [name, setname] = useState('');
